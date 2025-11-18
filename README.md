@@ -45,7 +45,7 @@ cd flower-website
 
 ## 🔗 Live Demo
 
-👉 Live Website: [Flower Garden]https://fardincse25.github.io/Garden-Flowers-Javascript-DOM/)
+👉 Live Website: [Flower Garden](https://fardincse25.github.io/Garden-Flowers-Javascript-DOM/).
 
 ## ❓ JavaScript Question & Answers
 ✔️ What is the difference between var, let, and const?
