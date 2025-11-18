@@ -1,43 +1,148 @@
-1. What is the difference between var, let, and const?
-   Answer :
+# 🌸 Flower Website
 
-- var : It is global scope variable declarer if it is declared outside a function. Any variable can be redeclared and reassigned by var and is initialized with undefined.
+A beautifully designed flower shop website built using **HTML**, **Tailwind CSS**, and **JavaScript**.
 
-- const : It is a block scope variable declarer or the variable declared by const can't be accessed before initialization. Any variable can't be redeclared and can't be reassigned by const.
+---
 
-- let : It is also a block scope variable declarer like const. That's why the variable can't be accessed before initialization. Any variable can't be redeclared but can be reassigned by let.
+## 📌 Project Overview
+This Flower Website is a clean, simple, and responsive front-end project where users can explore various flowers, view details, and interact with different UI components.  
+The main goal of this project is to practice modern UI building using Tailwind CSS and ES6 JavaScript concepts.
 
-2. What is the difference between map(), forEach(), and filter()?
-   Answer :
+---
 
-- map() : Map is a type of loop which makes changes in an array's elements by calling a function and returns a new array with the changed elements.
+## 🛠️ Technologies Used
+- **HTML5** – Website structure  
+- **Tailwind CSS** – Styling & responsiveness  
+- **JavaScript (ES6)** – Functional interactivity  
 
-- forEach() : It is also a loop as like map which also makes changes in the elements of any array. But the difference is forEach doesn't return anything.
+---
 
-- filter() : It is a type of loop which filters (selects or eliminates) the elements of array by imposing any condition on them. and returns an array with the filtered elements.
+## ⭐ Main Features
+- Fully responsive layout  
+- Beautiful flower product section  
+- Hover animations & transitions  
+- Modern UI built with Tailwind CSS  
+- JavaScript-based dynamic interactions  
+- Minimal, clean, user-friendly design  
 
-3. What are arrow functions in ES6?
-   Answer :
-   As we know, the function is a process of doing functional task by creating a scope around it. But the arrow function is different in case of ES6. Arrow function is shorter then the regular function. In arrow functions, it is not necessary to use "function" word before naming it. we can just name it and set a parameter and use '=>' this arrow sign and conduct the tasks. If the function is inline or single task conducting then it doesn't need to be returned and no need of { }. As example,
+---
 
-- Regular function :
-  const function Something(Parameter){
-  <!-- operations -->
-  }
+## 📦 Dependencies
+This project uses only CDN for Tailwind CSS:
 
-- Arrow function :
-  const Something => (the single operation)
-  multi task conducting :
-  const Something => {
-  <!-- multi operations -->
-  return
-  }
+```html
+<script src="https://cdn.tailwindcss.com"></script>
+```
 
-4. How does destructuring assignment work in ES6?
-   Answer :
-   Destruction of assignment is mainly used in arrays and objects to access their elements or key's values putting them into separate individual variables.
+## ▶️ How to Run the Project Locally
+1. Clone the Repository
+git clone https://github.com/your-username/flower-website.git
 
-5. Explain template literals in ES6. How are they different from string concatenation?
-   Answer :
-   When we feel necessity of using more symbols in one set quotation (""), then we use backticks, it is called template literals. Because in normal strings we can't create any whitespaces between two other words. then we have to use + to joining a white space between them. like "'word' + ' ' + 'word'" .
-   But this problem is solved by template literals. we can easily create spaces or adding different types of symbol inside the backtick. like `<h1> I am Fardin </h1>`
+2. Open the Project Folder
+cd flower-website
+
+3. Run the Project
+
+## 🔗 Live Demo
+
+👉 Live Website: [Flower Garden]https://fardincse25.github.io/Garden-Flowers-Javascript-DOM/)
+
+## ❓ JavaScript Question & Answers
+✔️ What is the difference between var, let, and const?
+var
+
+Function scoped
+
+Can be redeclared
+
+Can be reassigned
+
+Hoisted with default value undefined
+
+let
+
+Block scoped
+
+Cannot be redeclared
+
+Can be reassigned
+
+Not accessible before initialization (Temporal Dead Zone)
+
+const
+
+Block scoped
+
+Cannot be redeclared
+
+Cannot be reassigned
+
+Must be initialized during declaration
+
+✔️ What is the difference between map(), forEach(), and filter()?
+map()
+
+Returns a new array
+
+Applies a function to each element
+
+Used when you want modified output
+
+forEach()
+
+Loops through array
+
+Does not return anything
+
+Used for side-effects (console, DOM update)
+
+filter()
+
+Returns a new array with matched items
+
+Filters values based on a condition
+
+✔️ What are Arrow Functions in ES6?
+
+Arrow functions provide a shorter and cleaner syntax than regular functions.
+
+Regular Function:
+function add(a, b) {
+  return a + b;
+}
+
+Arrow Function:
+const add = (a, b) => a + b;
+
+
+No function keyword
+
+No {} needed for one-line return
+
+Shorter and readable syntax
+
+✔️ How Does Destructuring Assignment Work?
+
+Destructuring is used to extract values from arrays or objects easily.
+
+Array Destructuring:
+const [name, price] = ["Rose", 120];
+
+Object Destructuring:
+const { title, amount } = product;
+
+✔️ Explain Template Literals in ES6
+
+Template literals use backticks (`) and allow:
+
+Multiline text
+
+Variable embedding
+
+Avoiding string concatenation
+
+String Concatenation:
+const text = "I am " + name + " from " + place;
+
+Template Literal:
+const text = `I am ${name} from ${place}`;
